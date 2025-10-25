@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon | Customer Reviews</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <!--FONT AWESOME ICONS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--FavIcon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body
+    class="min-h-screen bg-cover bg-center bg-no-repeat"
+    style="background-image: url('images/body_bg.png')"
+  >
+    <div class="max-w-7xl mx-auto">
+      <header class="bg-primary w-full">
+        <div
+          class="mx-auto flex flex-row justify-between items-center p-4 px-4 md:px-8"
+        >
+          <img
+            src="images/logo-pokemon.png"
+            alt="Pokemon Logo"
+            class="w-[79px] h-[45px] flex justify-start"
+          />
+          <div class="flex gap-4">
+            <a
+              href="#"
+              class="hover:scale-110 transition-transform duration-200"
+            >
+              <img
+                src="images/user-regular-full.svg"
+                alt="User Icon"
+                class="w-6 h-6"
+              />
+            </a>
+            <a
+              href="#"
+              class="hover:scale-110 transition-transform duration-200"
+            >
+              <img src="images/bag-icon.svg" alt="Bag Icon" class="w-6 h-6" />
+            </a>
+            <a
+              id="hamburgerBtn"
+              class="md:hidden hover:scale-110 transition-transform duration-200"
+              href="#"
+            >
+              <img
+                src="images/bars-solid-full.svg"
+                alt="Menu Icon"
+                class="w-6 h-6"
+              />
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!--nav start-->
+      <nav
+        class="bg-gradient-to-r from-primary via-secondary to-primary shadow-xl"
+      >
+        <ul
+          class="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-6 px-4 py-5 max-w-7xl mx-auto"
+        >
+          <li>
+            <a
+              href="#"
+              class="block px-6 py-3 font-bold text-lg text-gray-900 bg-accent rounded-lg shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 border-2 border-accent"
+            >
+              Customer Reviews
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-6 py-3 font-semibold text-lg text-gray-100 hover:text-gray-900 hover:bg-accent rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-accent"
+            >
+              Products
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-6 py-3 font-semibold text-lg text-gray-100 hover:text-gray-900 hover:bg-accent rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-accent"
+            >
+              Cart
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block px-6 py-3 font-semibold text-lg text-gray-100 hover:text-gray-900 hover:bg-accent rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-accent"
+            >
+              Profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="max-w-7xl mx-auto">
+        <h1 class="text-3xl m-3 text-accent">Customer Reviews</h1>
+        <div
+          id="reviews-here"
+          class="grid gap-2 m-2 sm:grid-cols-2 md:grid-cols-3"
+        ></div>
+      </main>
+
+      <!--footer start-->
+      <footer class="bg-[#f5f5f5] py-4">
+        <div class="max-w-7xl mx-auto text-center">
+          <p class="text-sm text-[#041E42]">
+            © 2023 SETH ELLIOTT &bull; UVU DWDD-2620 &bull; Not affiliated with
+            Pokemon &bull; For school learning/use only.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="js/scripts.js"></script>
+  </body>
+</html>

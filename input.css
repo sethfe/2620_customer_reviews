@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@config "./tailwind.config.js";
+
+@theme{
+    --font-bangers: "Bangers", sans-serif;
+
+    --breakpoint-sm: 34rem;
+    --breakpoint-md: 56rem;
+
+    --color-*: initial;
+
+    /* my colors */
+    --color-primary: #3b82f6;
+    --color-secondary: #10b981;
+    --color-accent: #ffcb05;
+    --color-myred: #dc2626;
+    --color-myorange: #f97316;
+    
+
+    --color-gray-100: #ffffff;
+    --color-gray-200: #e5e5e5;
+    --color-gray-300: #cccccc;
+    --color-gray-400: #b3b3b3;
+    --color-gray-500: #999999;
+    --color-gray-600: #808080;
+    --color-gray-700: #666666;
+    --color-gray-800: #4d4d4d;
+    --color-gray-900: #000000;
+}
