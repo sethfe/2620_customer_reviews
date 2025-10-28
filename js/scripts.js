@@ -27,7 +27,7 @@ myCustomerReviews.forEach(r => {
        // console.log(myCustomerReviews.stars)
        const starImage = document.createElement('img')
        console.log(r.rating)
-       i < r.rating ? starImage.src = "../images/starColor.svg" : starImage.src = "../images/starGrey.svg"
+       i < r.rating ? starImage.src = "./images/starColor.svg" : starImage.src = "./images/starGrey.svg"
        starImage.className = "w-7 h-7 drop-shadow-md hover:scale-125 transition-transform duration-200"
        starImage.alt = i < r.rating ? "Filled star" : "Empty star"
        theStars.appendChild(starImage)
